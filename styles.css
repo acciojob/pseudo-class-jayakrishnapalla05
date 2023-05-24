@@ -1,4 +1,11 @@
-/*  your css code here. If applicable */
-span{
-	color:rgb(255, 0, 0);
+div{
+	display:inline;
 }
+div::before{
+                content: "Before Element";
+                color: red;
+            }
+            div::after{
+                content: "After Element";
+                color: red;
+            }
